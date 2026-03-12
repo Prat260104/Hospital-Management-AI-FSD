@@ -7,13 +7,21 @@
     "dev": "nodemon server.js",
     "test": "jest"
   },
-  "keywords": ["hospital", "patient", "management", "api", "express", "mongodb"],
+  "keywords": [
+    "hospital",
+    "patient",
+    "management",
+    "api",
+    "express",
+    "mongodb"
+  ],
   "author": "",
   "license": "ISC",
   "description": "Hospital Patient Management System Backend API - A REST API for managing hospital patient records",
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "mongodb": "^7.1.0",
     "mongoose": "^9.3.0"
   },
   "devDependencies": {

@@ -369,7 +369,7 @@ The implementation follows the MVC architecture with clear separation between co
     - Test that server starts successfully with environment variables
     - _Requirements: 10.1, 10.2, 10.3, 16.2, 17.1, 17.2, 17.3_
 
-  - [-] 11.2 Create GitHub repository
+  - [x] 11.2 Create GitHub repository
     - Initialize git repository
     - Add all files to git
     - Create initial commit
@@ -377,7 +377,7 @@ The implementation follows the MVC architecture with clear separation between co
     - Verify README is visible on GitHub
     - _Requirements: 16.1, 16.3, 16.4, 16.5, 16.6_
 
-  - [~] 11.3 Document deployment steps in README
+  - [x] 11.3 Document deployment steps in README
     - Add section for MongoDB Atlas setup (create cluster, get connection string)
     - Add section for Render deployment (connect GitHub, configure environment variables)
     - Add section for testing deployed API (use public URL)
