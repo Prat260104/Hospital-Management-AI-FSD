@@ -326,7 +326,7 @@ npm install
 
 Create a `.env` file in the root directory:
 ```env
-PORT=5000
+PORT=5001
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/hospital_db?retryWrites=true&w=majority
 ```
 
@@ -344,7 +344,7 @@ Production mode:
 npm start
 ```
 
-The server will start on `http://localhost:5000`
+The server will start on `http://localhost:5001`
 
 ## MongoDB Atlas Setup
 
@@ -415,7 +415,7 @@ git push -u origin main
 3. **Configure Environment Variables**
    - In the Render dashboard, go to "Environment"
    - Add the following environment variables:
-     - `PORT`: 5000
+     - `PORT`: 5001
      - `MONGODB_URI`: Your MongoDB Atlas connection string
    - Click "Save Changes"
 
@@ -437,7 +437,7 @@ git push -u origin main
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| PORT | Server port number | 5000 |
+| PORT | Server port number | 5001 |
 | MONGODB_URI | MongoDB connection string | mongodb+srv://user:pass@cluster.mongodb.net/hospital_db |
 
 ## Testing with Postman
@@ -447,7 +447,7 @@ git push -u origin main
 1. **Create a new collection** named "Hospital Patient Management API"
 
 2. **Set up environment variables** in Postman:
-   - `base_url`: `http://localhost:5000` (for local testing)
+   - `base_url`: `http://localhost:5001` (for local testing)
    - `base_url`: `https://your-service.onrender.com` (for production testing)
 
 3. **Create requests for each endpoint:**
